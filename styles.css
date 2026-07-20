@@ -414,6 +414,13 @@ a:focus-visible,
   color: #5a9b1e;
 }
 
+/* ── People ─────────────────────────────────────────── */
+
+.people {
+  padding: 96px 0;
+  border-bottom: 1px solid var(--line);
+}
+
 /* ── About ──────────────────────────────────────────── */
 
 .about {
@@ -441,6 +448,10 @@ a:focus-visible,
   color: var(--indigo);
 }
 
+.values-group + .values-group {
+  margin-top: 24px;
+}
+
 .values-list {
   list-style: none;
   display: flex;
@@ -457,6 +468,36 @@ a:focus-visible,
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 7px 16px;
+}
+
+/* ── Contact ────────────────────────────────────────── */
+
+.contact {
+  padding: 96px 0;
+  background-color: var(--mist);
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-inner {
+  max-width: 560px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  margin-bottom: 12px;
+}
+
+.contact .section-lede {
+  margin: 0 auto 24px;
+}
+
+.contact-email {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--indigo);
 }
 
 /* ── Footer ─────────────────────────────────────────── */
@@ -536,7 +577,9 @@ footer p {
 
   .planner,
   .fun,
-  .about {
+  .people,
+  .about,
+  .contact {
     padding: 64px 0;
   }
 
