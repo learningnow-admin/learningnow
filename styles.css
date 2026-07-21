@@ -418,7 +418,6 @@ a:focus-visible,
 
 .people {
   padding: 96px 0;
-  border-bottom: 1px solid var(--line);
 }
 
 .person-links {
@@ -505,36 +504,6 @@ a:focus-visible,
   padding: 7px 16px;
 }
 
-/* ── Contact ────────────────────────────────────────── */
-
-.contact {
-  padding: 96px 0;
-  background-color: var(--mist);
-  border-bottom: 1px solid var(--line);
-}
-
-.contact-inner {
-  max-width: 560px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.contact h2 {
-  font-size: clamp(1.6rem, 3vw, 2.1rem);
-  margin-bottom: 12px;
-}
-
-.contact .section-lede {
-  margin: 0 auto 24px;
-}
-
-.contact-email {
-  font-family: var(--display);
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: var(--indigo);
-}
-
 /* ── Footer ─────────────────────────────────────────── */
 
 footer {
@@ -552,21 +521,8 @@ footer {
   text-align: center;
 }
 
-.footer-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.footer-logo {
-  height: 40px;
-  width: auto;
-}
-
 .footer-contact {
-  text-align: left;
+  text-align: center;
 }
 
 .footer-label {
@@ -641,8 +597,7 @@ footer p {
   .planner,
   .fun,
   .people,
-  .about,
-  .contact {
+  .about {
     padding: 64px 0;
   }
 
